@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Bliss Cake Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff5f8;
+    }
+    header {
+      background-color: #ff6699;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+    nav {
+      background-color: #ff85a2;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1608198093002-ad4e005484b7');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 50px;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 20px;
+      margin: 10px 0 20px;
+    }
+    .hero button {
+      background-color: #ff3366;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .hero button:hover {
+      background-color: #ff6699;
+    }
+    .cakes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px;
+      gap: 25px;
+    }
+    .cake-item {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+    }
+    .cake-item img {
+      width: 100%;
+      border-radius: 15px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .cake-item h3 {
+      color: #ff3366;
+      margin-top: 10px;
+    }
+    .about {
+      background-color: #ffe6ec;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .about h2 {
+      color: #ff3366;
+    }
+    footer {
+      background-color: #ff6699;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🎂 Sweet Bliss Cake Shop 🎂</header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#cakes">Cakes</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Freshly Baked Happiness</h1>
+    <p>Delicious cakes made with love for every occasion</p>
+    <button>Order Now</button>
+  </section>
+
+  <section id="cakes" class="cakes">
+    <div class="cake-item">
+      <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484b7" alt="Chocolate Cake">
+      <h3>Chocolate Delight</h3>
+      <p>Rich and creamy chocolate layers</p>
+    </div>
+    <div class="cake-item">
+      <img src="https://images.unsplash.com/photo-1589710750801-432ff2d39b8a" alt="Strawberry Cake">
+      <h3>Strawberry Bliss</h3>
+      <p>Sweet and fruity freshness</p>
+    </div>
+    <div class="cake-item">
+      <img src="https://images.unsplash.com/photo-1565958011705-44e211f40dc5" alt="Vanilla Cake">
+      <h3>Vanilla Dream</h3>
+      <p>Soft, creamy, and classic</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Sweet Bliss, we believe every cake tells a story. Our bakers use the finest ingredients to create delightful treats that make your celebrations special.</p>
+  </section>
+
+  <footer id="contact">
+    <p>📍 123 Cake Street, Bakery Town | ☎️ 98765 43210 | ✉️ sweetbliss@example.com</p>
+    <p>&copy; 2025 Sweet Bliss Cake Shop. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
